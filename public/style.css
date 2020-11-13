@@ -1,0 +1,90 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.header{
+    background:#fdbb2b;
+    padding:20px;
+}
+
+.headername{
+    color:#fff;
+}
+
+.form{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:500px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow: 1px 1px 15px 2px rgb(235, 235, 235);
+    position: relative;
+}
+
+input{
+    padding:10px 15px;
+    border:none;
+}
+
+textarea{
+    padding:10px 15px;
+    border:none;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 1rem;
+}
+
+textarea::-webkit-input-placeholder{
+    font-size:1rem;
+}
+
+.btn{
+    position:absolute;
+    width:40px;
+    height:40px;
+    bottom:-10px;
+    right:10px;
+    border-radius:50%;
+    border:none;
+    background:#fdbb2b;
+    color:#fff;
+}
+
+.notes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note-item{
+    margin:15px;
+    border:none;
+    border-radius:5px;
+    box-shadow:1px 1px 15px 2px rgb(233, 233, 233);
+    padding:10px 15px;
+    max-width:400px;
+}
+
+.note-title, .note-content{
+    margin:5px 3px;
+}
+
+.note-content{
+    color:#838383;
+}
+
+.delete-btn{
+    color:#fdbb2b;
+    background:transparent;
+    border:none;
+    float:right;
+    margin:10px;
+}
+
+button{
+    cursor: pointer;
+}
