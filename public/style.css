@@ -75,6 +75,7 @@ textarea::-webkit-input-placeholder{
 
 .note-content{
     color:#838383;
+    word-wrap: break-word;
 }
 
 .delete-btn{
