@@ -12,7 +12,7 @@ const App =()=>{
 
     const changed = (e)=>{
         const {name, value} = e.target
-        console.log(name,value)
+        // console.log(name,value)
 
         setInput(prev=>{
             return {
@@ -31,7 +31,7 @@ const App =()=>{
             noteTitle:"",
             noteContent:""
         })
-        console.log(initialState)
+        // console.log(initialState)
     }
 
     const deleted = (id) =>{
