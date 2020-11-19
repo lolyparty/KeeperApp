@@ -2,6 +2,7 @@ import React from 'react'
 import {Item} from './item'
 import {Form} from './form'
 
+
 const App =()=>{
     const [initialState, setState] = React.useState([])
 
@@ -56,6 +57,7 @@ const App =()=>{
         <div className="header">
             <h1 className="headername">Keeper</h1>
         </div>
+        
         <Form 
             changed={changed}
             noteTitle={initialInput.noteTitle}
@@ -63,6 +65,7 @@ const App =()=>{
             submitted={submitted}
 
         />
+        
         <div className="notes">
             {initialState.map(additem)}
         </div>
